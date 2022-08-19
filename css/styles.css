@@ -21,25 +21,24 @@ ul {
 }
 .logo {
   font-family: Raleway;
-  font-style: bold;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
 }
 .logo-web {
   color: var(--color-button-text);
 }
-.site-nav-list {
-}
+/* .site-nav-list {
+} */
+
 .site-nav-link-act {
-  font-style: medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: var(--color-button-text);
   text-decoration: none;
 }
@@ -48,11 +47,10 @@ ul {
   color: var(--color-button-text);
 }
 .site-nav-link {
-  font-style: medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: var(--color-text);
   text-decoration: none;
 }
@@ -60,14 +58,14 @@ ul {
 .site-nav-link:focus {
   color: var(--color-button-text);
 }
-.list-contact {
-}
+/* .list-contact {
+} */
+
 .list-contact-link {
-  font-style: medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: var(--primary-color-text-fon);
   text-decoration: none;
 }
@@ -75,103 +73,104 @@ ul {
 .list-contact-link:focus {
   color: var(--color-button-text);
 }
-/* main */
-.main-studio {
-}
+/* main    .main-studio {
+}   */
 /* Секция hero */
 .hero {
   background-color: var(--hero-fon);
 }
 .hero-full {
-  font-style: black;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
   text-align: center;
   color: var(--color-minitext-fon);
 }
+.hero-full {
+  text-transform: uppercase;
+}
 /* button */
 .hero-full-button {
-  font-style: bold;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
   border-radius: 4px;
   cursor: pointer;
   color: var(--color-minitext-fon);
   background-color: var(--color-button-text);
 }
-.section-feature {
+/* .section-feature {
 }
 .section-feature-list {
 }
 .section-feature-item {
-}
+} */
 .section-feature-item-title {
-  font-style: bold;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   color: var(--color-text);
 }
+.section-feature-item-title {
+  text-transform: uppercase;
+}
 .section-feature-item-p {
-  font-style: regular;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   color: var(--primary-color-text-fon);
 }
-/*  чим ми займаємося */
+/*  чим ми займаємося 
 .section-services {
 }
+*/
 .section-services-title {
-  font-style: bold;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-text);
 }
-.section-services-works-list {
+/* .section-services-works-list {
 }
 .section-services-works-foto {
-}
+} */
 /* наша команда */
 .section-team {
   background-color: var(--fon-comand);
 }
 .section-team-title {
-  font-style: bold;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-text);
 }
-.section-team-working-people {
+/* .section-team-working-people {
+} */
+
+.section-team-list {
+  background-color: var(--color-minitext-fon);
 }
-.section-team-working-people-list {
-}
-.section-team-working-people-foto {
-}
-.section-team-working-people-name {
-  font-style: medium;
+/* .section-team-foto {
+} */
+.section-team-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   color: var(--color-text);
 }
-.section-team-working-people-job {
-  font-style: regular;
+.section-team-profession {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 /*  footer-studio */
 .footer-studio {
@@ -179,84 +178,96 @@ ul {
 }
 .logo-footer {
   font-family: raleway;
-  font-style: bold;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   color: var(--color-minitext-fon);
   text-decoration: none;
 }
-.address-studio {
+.footer-add-studio {
+  font-style: normal;
 }
-.address-studio-list {
-}
-.address-studio-item-map {
-  font-style: regular;
+/* .footer-studio-list {}*/
+.footer-studio-map {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   color: var(--color-minitext-fon);
   text-decoration: none;
 }
-.address-studio-item-map:hover,
-.address-studio-item-map:focus {
+.footer-studio-map:hover,
+.footer-studio-map:focus {
   color: var(--color-button-text);
 }
-.address-studio-item-contact {
-  font-style: medium;
+.footer-studio-contact {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.14;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: var(--footer-text);
   text-decoration: none;
 }
-.address-studio-item-contact:hover,
-.address-studio-item-contact:focus {
+.footer-studio-contact:hover,
+.footer-studio-contact:focus {
   color: var(--color-button-text);
 }
 /*  portfolio */
-/* main-portfolio */
-.main-portfolio {
+/* .main-portfolio {
 }
-.section-portfolio {
+.portfolio-section {
 }
-.section-portfolio-list {
-}
-.button-portfolio {
-  font-style: medium;
+.portfolio-section-list {
+} */
+.portfolio-button {
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   border-radius: 4px;
   cursor: pointer;
   background-color: var(--fon-comand);
 }
-.button-portfolio:hover,
-.button-portfolio:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--color-minitext-fon);
+  background-color: var(--color-button-text);
+}
+
+.portfolio-button-act {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-minitext-fon);
+  background-color: var(--color-button-text);
+}
+.portfolio-button-act:hover,
+.portfolio-button-act:focus {
   color: var(--color-minitext-fon);
   background-color: var(--color-button-text);
 }
 /* наши работы */
-.portfolio-gallery-works-list {
+/* .portfolio-card-list {
 }
-.portfolio-gallery-works-item {
+.portfolio-card-item {
 }
-.portfolio-gallery-works-item-foto {
-}
-.portfolio-subtitle {
-  font-style: bold;
+.portfolio-card-item-foto {
+} */
+
+.portfolio-card-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
   color: var(--color-text);
 }
-.portfolio-gallery-works-text {
-  font-style: regular;
+.portfolio-card-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
